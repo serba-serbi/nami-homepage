@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Naminami42のホームページ</title>
+  <style>
+    body { background-color: white; text-align: center; font-size:18px; background-color: white; background-image: url('static/NyamiBack.png'); background-repeat: repeat; background-size: 250px 200px auto; /* ← 1枚の幅300px */opacity: 0.8; /* 全体を薄くしたいとき */ background-position: 250px 0;}
+    table { margin-left: 0; border: none; }
+    td { border: none; padding: 10px; }
+    p { text-align:left; font-weight: bold; margin:4px 0; line-height: 1.2; padding: 0}
+    a { text-decoration: underline; color: blue; }
+    .normal-section p { font-weight: normal; }
+    .sidebar { text-align:left; position: fixed; top:0; left:0; width:236px; height: 100%; background-color: #f0f0ff; padding: 20px; box-shadow: 2px 0 5px rgba(0,0,0,0,1); border-right: 1px solid black; /* 縦線の色・太さ調整 */}
+    .sidebar a { text-decoration:none; color: black; display: block; margin-bottom: 10px;}
+    .sidebar a::before{content: "●"; display:inline-block; width: 1em; margin-right:0.5em;}
+        /* 1番目のリンクの色 */
+    .sidebar a:nth-child(1)::before {
+    color: pink;
+    }
+
+    /* 2番目のリンクの色 */
+    .sidebar a:nth-child(2)::before {
+    color: green;
+    }
+
+    /* 3番目のリンクの色 */
+    .sidebar a:nth-child(3)::before {
+    color: cyan;
+    }
+
+    /* ...以下同じ！ */
+    .sidebar a:nth-child(4)::before { color: blue; }
+    .sidebar a:nth-child(5)::before { color: navy; }
+    .sidebar a:nth-child(6)::before { color: purple; }
+    .sidebar a:nth-child(7)::before { color: violet; }
+    .sidebar::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0px;  /* 右に少しはみ出させる */
+        width: 6px;
+        height: 100%;
+        background-color: rgb(186, 186, 186);
+                    }
+  </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#">トップ</a>
+        <a href="#">映画出演</a>
+        <a href="#">ドラマ出演</a>
+        <a href="#">舞台出演</a>
+        <a href="#">写真集</a>
+        <a href="#">出版本</a>
+        <a href="#">管理者</a>
+      </div>
+        <h1 style="margin:80px 0 0 320px;">なみなーみのホームページ</h1>
+    <table style="margin-left:236px">
+        <tr>
+          <td style="width: 300px; vertical-align: top;">
+            <img src="static/namitop_20250316_3.png" alt="My picMy pic" width="300">
+          </td>
+          <td style="vertical-align: top;">
+            <h3 style="font-weight:normal;">★★★ 最新情報 ★★★</h3>
+            <hr style="border: 1px solid gray;">
+
+            <!--企画-->
+            <p>・企画</p>
+            <p style="margin-left:50px;">
+                「<a href="https://www.youtube.com/watch?v=Fc-lbBPqrEw&list=PLnofAGkxyx3WZ7XJiXr0qXbE6U6TR6-Kh">初心者の反応クイズ</a>」 <span style="color: red;">New!</span>
+                <br>2025年9月11日実施
+            </p>
+            <p style="margin:25px 0 25px 50px;">
+                「<a href="https://www.youtube.com/watch?v=stZPimyaRwg&list=PLnofAGkxyx3WPnbBV5rDGvaroUDcG3KwO">kamelra王</a>」
+                <br>2024年2月18日実施
+            </p>
+
+            <hr style="border: 1px solid gray;">
+
+            <!--記事作成-->
+            <p>・note</p>
+            <p style="margin-left:50px;">
+                「<a href="https://note.com/naminami42/n/n9bd29da7b681">ぶいちゃ民の１０８煩悩'25</a>」<span style="color: red;">New!</span>
+                <br>2025年1月1日公開
+            </p>
+            <p style="margin:24px 0 24px 50px;">
+                「<a href="https://note.com/naminami42/n/n05939a49d7a8">新時代のMBTIを作ろう！</a>」
+                <br>2024年4月19日公開 
+            </p>
+
+            <hr style="border: 1px solid gray">
+            <p>当サイトの内容、テキスト、画像等の無断転載・無断使用を固く禁じます。</p>
+            <p>また、まとめサイト等への引用を厳禁致します。</p>
+            <p>お問い合わせはメールでご連絡をお願い致します。</p>
+            <p>※最近、SNS上でなみなみを名乗るアカウントがあるといった“なりすまし”の報告が寄せられておりますが、なみ本人は一切行っておりませんので、ご注意ください</p>
+          </td>
+        </tr>
+      </table>
+      <div class="normal-section" style="margin-left:273px">
+        <p style="margin-left:20px">なみなーみ</p>
+        <p style="margin-left:20px">Naminami42</p>
+        <p style="margin-left:20px">生年月日 XXXX年4月2日</p>
+        <p style="margin-left:20px">血液型 A型</p>
+        <br>
+        <p>If you have any enquiries</p>
+        <p>regarding my Projects or articles,</p>
+        <p>or would like to make an</p>
+        <p>enquiry concerning future</p>
+        <p>projects, please do not hesitate</p>
+        <p>to contact me through the</p>
+        <p>following account.</p>
+        <p>mail:<a href="https://x.com/NobinobiChill">X @Nobinobichill</a></p>
+      
+        <br>
+      
+        <p>所属:</p>
+        <p>(無)幻会興業　企画事業部部長</p>
+        <p><a href="https://x.com/GenkaiKougyou">X @GenkaiKougyou</a></p>
+      </div>
+      <p>© 2025 なみなーみ</p>
+</body>
+</html>
